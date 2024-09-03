@@ -4,7 +4,7 @@ namespace GeometryLib.Shapes.Entities;
 
 public class Circle : IShape
 {
-    private double Radius { get; }
+    public double Radius { get; }
 
     public Circle(double radius)
     {

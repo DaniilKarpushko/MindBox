@@ -4,9 +4,9 @@ namespace GeometryLib.Shapes.Entities;
 
 public class Triangle : IShape
 {
-    private double SideA { get; }
-    private double SideB { get; }
-    private double SideC { get; }
+    public double SideA { get; }
+    public double SideB { get; }
+    public double SideC { get; }
 
     public Triangle(double sideA, double sideB, double sideC)
     {
